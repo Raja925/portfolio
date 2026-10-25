@@ -4,30 +4,31 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Raja Antony Mandal — Technical Writer & Documentation Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<meta name="description" content="Portfolio of Raja Antony Mandal, a technical writer and documentation engineer. Independent technical writing samples on AI infrastructure, manufacturing documentation, and a docs-as-code pipeline."/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 /* ── RESET & VARS ─────────────────────────────── */
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
 :root{
-  --bg:#f8f6f2;
-  --surface:#ffffff;
-  --navy:#0d1b2e;
-  --navy2:#162944;
-  --gold:#b8832a;
-  --gold-light:#f2e4c8;
-  --gold-glow:rgba(184,131,42,0.15);
-  --text:#1a1a2e;
-  --muted:#6b7280;
-  --border:#e8e2d8;
-  --r:14px;
-  --shadow:0 8px 40px rgba(13,27,46,0.09);
+  --bg:#0e1012;
+  --surface:#15181b;
+  --navy:#eef0f2;
+  --navy2:#c9ced3;
+  --gold:#4cc66a;
+  --gold-light:rgba(76,198,106,0.14);
+  --gold-glow:rgba(76,198,106,0.12);
+  --text:#e6e8ea;
+  --muted:#9aa1a8;
+  --border:#272c31;
+  --r:6px;
+  --shadow:0 8px 40px rgba(0,0,0,0.45);
 }
 
 body{
   background:var(--bg);
   color:var(--text);
-  font-family:'DM Sans',sans-serif;
+  font-family:'Inter',sans-serif;
   font-size:16px;
   line-height:1.7;
   overflow-x:hidden;
@@ -72,7 +73,7 @@ nav{
 }
 nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 .nav-logo{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:1.25rem;font-weight:600;
   color:var(--navy);letter-spacing:-0.01em;
   cursor:pointer;position:relative;
@@ -140,12 +141,12 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.5;transform:scale(0.85);}}
 .hero-label{
-  font-family:'DM Mono',monospace;
+  font-family:'JetBrains Mono',monospace;
   font-size:0.72rem;letter-spacing:0.16em;
   text-transform:uppercase;color:var(--muted);
 }
 .hero-name{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:clamp(3rem,5.5vw,4.8rem);
   font-weight:500;line-height:1.05;
   letter-spacing:-0.03em;color:var(--navy);
@@ -159,7 +160,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
 .hero-title{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:1.3rem;font-style:italic;
   color:var(--gold);margin-bottom:1.8rem;
   opacity:0;animation:fadeUp 0.6s 1.8s ease both;
@@ -191,7 +192,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 .stat:first-child{padding-left:0;}
 .stat:last-child{border-right:none;}
 .stat-num{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:2.2rem;font-weight:600;
   color:var(--navy);line-height:1;
   transition:color 0.2s;
@@ -244,13 +245,13 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
   position:absolute;bottom:15px;left:-30px;z-index:3;
   background:var(--navy);color:#fff;
   padding:0.7rem 1.1rem;border-radius:10px;
-  font-family:'DM Mono',monospace;font-size:0.7rem;line-height:1.6;
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;line-height:1.6;
   box-shadow:0 8px 28px rgba(13,27,46,0.25);
   animation:fadeUp 0.6s 2.6s ease both;opacity:0;
   cursor:default;transition:transform 0.2s;
 }
 .hero-badge:hover{transform:scale(1.04);}
-.hero-badge strong{color:var(--gold);display:block;font-family:'EB Garamond',serif;font-size:1rem;}
+.hero-badge strong{color:var(--gold);display:block;font-family:'Inter',sans-serif;font-size:1rem;}
 
 /* BTN */
 .btn-primary,.btn-outline{
@@ -268,13 +269,13 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 /* SECTION */
 .section{max-width:1020px;margin:0 auto;padding:5rem 2.5rem;}
 .section-eyebrow{
-  font-family:'DM Mono',monospace;
+  font-family:'JetBrains Mono',monospace;
   font-size:0.7rem;letter-spacing:0.18em;
   text-transform:uppercase;color:var(--gold);
   margin-bottom:0.6rem;
 }
 .section-title{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:clamp(2rem,3.5vw,2.8rem);
   font-weight:500;color:var(--navy);
   letter-spacing:-0.025em;
@@ -310,9 +311,9 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 .edu-card:hover{box-shadow:var(--shadow);border-color:var(--gold);transform:translateX(4px);}
 .edu-card:hover::before{transform:scaleY(1);}
-.edu-school{font-family:'EB Garamond',serif;font-size:1.05rem;font-weight:600;color:var(--navy);}
+.edu-school{font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:600;color:var(--navy);}
 .edu-degree{font-size:0.85rem;color:var(--muted);margin:0.2rem 0;}
-.edu-year{font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--gold);letter-spacing:0.06em;}
+.edu-year{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--gold);letter-spacing:0.06em;}
 .values-list{list-style:none;margin-top:1.5rem;}
 .values-list li{
   padding:0.65rem 0;border-bottom:1px solid var(--border);
@@ -333,7 +334,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
   font-size:0.8rem;font-weight:500;
   border:1.5px solid var(--border);background:transparent;
   color:var(--muted);cursor:pointer;
-  transition:all 0.2s;font-family:'DM Sans',sans-serif;
+  transition:all 0.2s;font-family:'Inter',sans-serif;
 }
 .filter-btn:hover,.filter-btn.active{
   background:var(--navy);color:#fff;border-color:var(--navy);
@@ -358,12 +359,12 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
   align-items:flex-start;margin-bottom:1.2rem;flex-wrap:wrap;gap:0.5rem;
 }
 .work-role{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:1.22rem;font-weight:600;color:var(--navy);
 }
 .work-company{font-size:0.88rem;color:var(--gold);font-weight:500;margin-top:0.2rem;}
 .work-date{
-  font-family:'DM Mono',monospace;font-size:0.7rem;
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;
   color:var(--muted);letter-spacing:0.06em;white-space:nowrap;
   background:var(--bg);padding:0.25rem 0.7rem;border-radius:20px;
   border:1px solid var(--border);
@@ -388,7 +389,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 .metric{
   background:var(--gold-light);padding:0.35rem 0.85rem;
-  border-radius:6px;font-family:'DM Mono',monospace;
+  border-radius:6px;font-family:'JetBrains Mono',monospace;
   font-size:0.72rem;color:var(--navy);font-weight:500;
   transition:all 0.2s;cursor:default;
 }
@@ -421,11 +422,11 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 .project-card:hover .project-icon{transform:scale(1.15) rotate(-5deg);}
 .project-name{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:1.18rem;font-weight:600;color:var(--navy);margin-bottom:0.3rem;
 }
 .project-type{
-  font-family:'DM Mono',monospace;font-size:0.68rem;
+  font-family:'JetBrains Mono',monospace;font-size:0.68rem;
   letter-spacing:0.1em;text-transform:uppercase;
   color:var(--gold);margin-bottom:0.9rem;
 }
@@ -451,7 +452,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 .skill-stat-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:var(--shadow);}
 .skill-stat-num{
-  font-family:'EB Garamond',serif;font-size:2.2rem;
+  font-family:'Inter',sans-serif;font-size:2.2rem;
   font-weight:600;color:var(--gold);line-height:1;
 }
 .skill-stat-label{font-size:0.78rem;color:var(--muted);margin-top:0.3rem;line-height:1.4;}
@@ -463,7 +464,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
 }
 .skill-group:hover{border-color:var(--gold);box-shadow:var(--shadow);}
 .skill-group-title{
-  font-family:'DM Mono',monospace;font-size:0.7rem;
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;
   letter-spacing:0.14em;text-transform:uppercase;
   color:var(--gold);margin-bottom:1.2rem;
 }
@@ -526,7 +527,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
   border-radius:50%;pointer-events:none;
 }
 .contact-cta h3{
-  font-family:'EB Garamond',serif;
+  font-family:'Inter',sans-serif;
   font-size:1.7rem;font-weight:500;margin-bottom:0.8rem;
 }
 .contact-cta p{color:rgba(255,255,255,0.65);line-height:1.75;margin-bottom:2rem;font-size:0.95rem;}
@@ -543,7 +544,7 @@ nav.scrolled{box-shadow:0 4px 24px rgba(13,27,46,0.06);}
   background:rgba(255,255,255,0.08);
   border:1px solid rgba(255,255,255,0.15);
   border-radius:20px;padding:0.35rem 0.9rem;
-  font-family:'DM Mono',monospace;font-size:0.7rem;
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;
   color:rgba(255,255,255,0.7);margin-bottom:1.5rem;
 }
 .available-dot{
@@ -556,7 +557,7 @@ footer{
   border-top:1px solid var(--border);
   padding:2rem 2.5rem;
   display:flex;align-items:center;justify-content:space-between;
-  font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--muted);
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--muted);
 }
 footer a{color:var(--muted);text-decoration:none;transition:color 0.2s;}
 footer a:hover{color:var(--gold);}
@@ -580,6 +581,74 @@ footer a:hover{color:var(--gold);}
   body{cursor:auto;}
   #cursor,#cursor-ring{display:none;}
 }
+
+/* ── DOCUMENTATION THEME OVERRIDES ───────────────── */
+nav{background:rgba(14,16,18,0.9);}
+nav.scrolled{box-shadow:0 4px 24px rgba(0,0,0,0.4);}
+.nav-resume{background:var(--gold)!important;color:#0b0c0d!important;font-weight:600!important;border-radius:3px!important;}
+.nav-resume:hover{background:#6ddf88!important;}
+.nav-links a{border-radius:3px;}
+#cursor{mix-blend-mode:normal;background:var(--gold);}
+#home{background:radial-gradient(900px 420px at 15% 0%,rgba(76,198,106,0.10),transparent 70%);}
+.hero-name{font-weight:700;font-size:clamp(2.6rem,5vw,4.2rem);letter-spacing:-0.035em;}
+.hero-title{font-style:normal;font-weight:500;color:var(--gold);}
+.section-title{font-weight:650;}
+.hero-photo-ring,.hero-photo-bg{display:none;}
+.hero-photo{border-radius:8px;border:1px solid rgba(76,198,106,0.35);box-shadow:var(--shadow);}
+.hero-badge{background:#1b1f23;border:1px solid rgba(76,198,106,0.4);border-radius:4px;}
+.stat-tooltip{background:#1b1f23;border:1px solid var(--border);}
+.stat-tooltip::after{border-top-color:#1b1f23;}
+.btn-primary,.btn-outline{border-radius:3px;font-weight:600;}
+.btn-primary{background:var(--gold);color:#0b0c0d;}
+.btn-primary:hover{background:#6ddf88;box-shadow:0 6px 20px rgba(76,198,106,0.3);}
+.btn-outline{color:var(--text);border-color:#3a4147;}
+.btn-outline:hover{background:transparent;border-color:var(--gold);color:var(--gold);}
+.filter-btn:hover,.filter-btn.active{background:var(--gold);color:#0b0c0d;border-color:var(--gold);}
+.pill:hover,.metric:hover{color:#0b0c0d;}
+.contact-cta{background:var(--surface);border:1px solid rgba(76,198,106,0.3);}
+.contact-cta .btn-gold{color:#0b0c0d;font-weight:600;border-radius:3px;}
+.contact-cta .btn-gold:hover{background:#6ddf88;}
+.contact-link:hover .contact-link-icon{color:#0b0c0d;}
+.work-card:hover,.project-card:hover{box-shadow:0 16px 48px rgba(0,0,0,0.5);}
+
+/* ── SAMPLES ─────────────────────────────────────── */
+a.sample-card{text-decoration:none;color:inherit;}
+.sample-link{
+  margin-top:1.2rem;font-size:0.82rem;font-weight:600;color:var(--gold);
+  font-family:'JetBrains Mono',monospace;
+}
+.sample-note{
+  margin-top:2.5rem;padding:1.2rem 1.5rem;
+  border:1px solid rgba(76,198,106,0.3);border-left:3px solid var(--gold);
+  border-radius:4px;background:var(--surface);
+  font-size:0.88rem;color:var(--muted);line-height:1.75;
+}
+.sample-note strong{color:var(--navy);}
+.home-samples{
+  max-width:1120px;width:100%;margin:0 auto;
+  padding:0 2.5rem 4.5rem;
+}
+.home-sample-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;
+  margin:1rem 0 1.8rem;
+}
+.home-sample-grid .project-card{padding:1.4rem 1.5rem;}
+.home-sample-grid .project-desc{font-size:0.83rem;}
+@media(max-width:768px){
+  .home-samples{padding:0 1.5rem 3rem;}
+  .home-sample-grid{grid-template-columns:1fr;}
+}
+p.contact-text{color:var(--muted);line-height:1.85;margin-bottom:1.2rem;font-size:0.97rem;}
+.contact-links{margin-top:2rem;}
+@media(max-width:768px){
+  .hero-content{min-width:0;}
+  .hero-stats{flex-wrap:wrap;row-gap:1.5rem;}
+  .stat{flex:1 1 40%;padding-right:1rem;border-right:none;}
+  .stat-tooltip{display:none;}
+  .stat-num{font-size:1.8rem;}
+  .hero-badge{left:0;}
+  html,body{overflow-x:hidden;}
+}
 </style>
 </head>
 <body>
@@ -594,6 +663,7 @@ footer a:hover{color:var(--gold);}
     <li><a href="#" onclick="showPage('home');return false" id="nav-home" class="active">Home</a></li>
     <li><a href="#" onclick="showPage('about');return false" id="nav-about">About</a></li>
     <li><a href="#" onclick="showPage('work');return false" id="nav-work">Work</a></li>
+    <li><a href="#" onclick="showPage('samples');return false" id="nav-samples">Samples</a></li>
     <li><a href="#" onclick="showPage('projects');return false" id="nav-projects">Projects</a></li>
     <li><a href="#" onclick="showPage('skills');return false" id="nav-skills">Skills</a></li>
     <li><a href="#" onclick="showPage('contact');return false" id="nav-contact">Contact</a></li>
@@ -650,6 +720,36 @@ footer a:hover{color:var(--gold);}
         LFP Cell Manufacturing<br/>Documentation · #1 Commits
       </div>
     </div>
+  </div>
+  <div class="home-samples">
+    <div class="section-eyebrow">Independent Writing Samples</div>
+    <div class="home-sample-grid">
+      <a class="project-card sample-card " href="https://raja925.github.io/docs-as-code/samples/nemo-ecosystem-map/" target="_blank" rel="noopener">
+        <div class="project-icon">🗺️</div>
+        <div class="project-name">NeMo Ecosystem Map</div>
+        <div class="project-type">Independent Sample · Draft</div>
+        <div class="project-desc">Matches each goal to the right library in a large AI software family, decodes retired product names that still appear in articles and package registries, and flags a claim that needs confirmation.</div>
+        <div class="project-tags"><span class="tag">Information Architecture</span><span class="tag">Decision Tables</span><span class="tag">Glossary</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+      <a class="project-card sample-card " href="https://raja925.github.io/docs-as-code/samples/nim-troubleshooting-guide/" target="_blank" rel="noopener">
+        <div class="project-icon">🧰</div>
+        <div class="project-name">NIM Troubleshooting Guide</div>
+        <div class="project-type">Independent Sample · Draft</div>
+        <div class="project-desc">Merges troubleshooting advice from three separate microservice pages into one symptom-first guide with numbered fixes and verify steps, and lists where the sources disagree.</div>
+        <div class="project-tags"><span class="tag">Troubleshooting</span><span class="tag">Content Consolidation</span><span class="tag">Verify Steps</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+      <a class="project-card sample-card " href="https://raja925.github.io/docs-as-code/samples/tensorrt-llm-setup-and-vllm/" target="_blank" rel="noopener">
+        <div class="project-icon">⚙️</div>
+        <div class="project-name">TensorRT-LLM Setup And vLLM Comparison</div>
+        <div class="project-type">Independent Sample · Draft</div>
+        <div class="project-desc">Shows the current install and serve steps for an inference library, compares it with a popular alternative using official documentation, and translates outdated build instructions still found in tutorials.</div>
+        <div class="project-tags"><span class="tag">Setup Guide</span><span class="tag">Comparison</span><span class="tag">Outdated Content</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+    </div>
+    <a href="#" onclick="showPage('samples');return false" class="btn-outline ripple-container">View all samples <span>→</span></a>
   </div>
 </div>
 
@@ -803,6 +903,50 @@ footer a:hover{color:var(--gold);}
       </div>
 
     </div>
+  </div>
+</div>
+
+<!-- ══ SAMPLES ═════════════════════════════════════ -->
+<div id="samples" class="page">
+  <div class="section">
+    <div class="section-eyebrow reveal">Independent Writing</div>
+    <h2 class="section-title reveal">Writing Samples</h2>
+    <p class="section-sub reveal">Technical writing on AI infrastructure, built from public documentation. Each sample starts from the reader’s goal, uses numbered steps with a verify step, and ends with open questions for the product team.</p>
+    <div class="projects-grid">
+      <a class="project-card sample-card reveal" href="https://raja925.github.io/docs-as-code/samples/nemo-ecosystem-map/" target="_blank" rel="noopener">
+        <div class="project-icon">🗺️</div>
+        <div class="project-name">NeMo Ecosystem Map</div>
+        <div class="project-type">Independent Sample · Draft</div>
+        <div class="project-desc">Matches each goal to the right library in a large AI software family, decodes retired product names that still appear in articles and package registries, and flags a claim that needs confirmation.</div>
+        <div class="project-tags"><span class="tag">Information Architecture</span><span class="tag">Decision Tables</span><span class="tag">Glossary</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+      <a class="project-card sample-card reveal" href="https://raja925.github.io/docs-as-code/samples/nim-troubleshooting-guide/" target="_blank" rel="noopener">
+        <div class="project-icon">🧰</div>
+        <div class="project-name">NIM Troubleshooting Guide</div>
+        <div class="project-type">Independent Sample · Draft</div>
+        <div class="project-desc">Merges troubleshooting advice from three separate microservice pages into one symptom-first guide with numbered fixes and verify steps, and lists where the sources disagree.</div>
+        <div class="project-tags"><span class="tag">Troubleshooting</span><span class="tag">Content Consolidation</span><span class="tag">Verify Steps</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+      <a class="project-card sample-card reveal" href="https://raja925.github.io/docs-as-code/samples/tensorrt-llm-setup-and-vllm/" target="_blank" rel="noopener">
+        <div class="project-icon">⚙️</div>
+        <div class="project-name">TensorRT-LLM Setup And vLLM Comparison</div>
+        <div class="project-type">Independent Sample · Draft</div>
+        <div class="project-desc">Shows the current install and serve steps for an inference library, compares it with a popular alternative using official documentation, and translates outdated build instructions still found in tutorials.</div>
+        <div class="project-tags"><span class="tag">Setup Guide</span><span class="tag">Comparison</span><span class="tag">Outdated Content</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+      <a class="project-card sample-card reveal" href="https://raja925.github.io/docs-as-code/starter-kit/" target="_blank" rel="noopener">
+        <div class="project-icon">🔧</div>
+        <div class="project-name">Docs-as-Code Pipeline</div>
+        <div class="project-type">Working Project · Live</div>
+        <div class="project-desc">The site that hosts the samples: documentation in Git with a linter, a terminology registry, and automated checks on every pull request. A change can’t merge until the checks pass.</div>
+        <div class="project-tags"><span class="tag">MkDocs</span><span class="tag">GitHub Actions</span><span class="tag">Python</span><span class="tag">Linting</span></div>
+        <div class="sample-link">Read the sample →</div>
+      </a>
+    </div>
+    <div class="sample-note reveal"><strong>Independent work.</strong> These samples aren’t affiliated with or endorsed by the companies whose products they describe. Every sample is marked draft: the commands come from public documentation and haven’t been run on a GPU host, and each page lists its gaps.</div>
   </div>
 </div>
 
@@ -1232,7 +1376,7 @@ function addLogoEffect(el){
 }
 
 // ── KEYBOARD NAV ────────────────────────────────────
-const pages=['home','about','work','projects','skills','contact'];
+const pages=['home','about','work','samples','projects','skills','contact'];
 let currentPageIdx=0;
 document.addEventListener('keydown',e=>{
   if(e.key==='ArrowRight'||e.key==='ArrowDown'){
